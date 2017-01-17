@@ -1,0 +1,103 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+
+/*VIDEO UPLOAD BANNER*/
+.artenova-video-upload{
+	padding: 0px !important;
+	max-height: 100px !important;
+	.section_inner{
+		margin-top: -15px !important;
+		h2{
+			margin-bottom: -15px !important;
+			padding-top: 15px !important;
+			font-weight: 700 !important;
+		}
+		p{
+			line-height: 16px !important;
+			width: 295px !important;
+			margin: 0 auto !important;
+		}
+	}
+}
+
+/*TEMPORAL PARA CAROUSEL INDEX Y TESTIMONIAL*/
+.qode_carousels .slides>li{
+	    margin: 0 100px 0 0 !important;
+	    width: 300px !important;
+}
+.testimonial_author{
+	color: #9cc020 !important;
+}
+
+/*PATROCINADORES, LOGOS PEQUEÑOS*/
+
+.home-patrocinadores{
+	.slides img{
+		width:auto;
+	}
+}
+
+/*CONTACTO*/
+.artenova-contacto{
+	.icon_holder{
+		margin-top: 5px;
+	}
+	input.wpcf7-form-control, textarea.wpcf7-form-control{
+		border: 1px solid #dedee0;
+		background-color: unset;
+		color:#43434f;
+		&:focus{
+			background-color: #9cc020;
+		}
+	}
+}
+.artenova-participa-left, .artenova-participa-right, .artenova-participa-right-three{
+	input.wpcf7-form-control{
+		border: 1px solid #dedee0;
+		background-color: unset;
+		color:#43434f;
+		&:focus{
+			background-color: #9cc020;
+		}
+	}
+	width: calc(50% - 15px);
+	min-height: 55px;
+}
+.artenova-participa-left{
+	float:left;
+	clear: both;
+}
+.artenova-participa-right{
+	float:right;
+	.wpcf7-radio{
+		margin-top: 15px;
+		float: left;
+		input{
+			float:right;
+		}
+	}
+	.wpcf7-file{
+		width: 100%;
+		margin-top: 5px;
+		height: 50px;
+	}
+}
+.artenova-participa-right-three{
+	width: calc(15% - 7px);
+	float: left;
+	margin-left: 30px;
+}
+.artenova-participa-text{
+	width: 100%;
+	clear: both;
+	text-align: left;
+}
